@@ -47,6 +47,22 @@ class _CartPageState extends State<CartPage> {
                           onPressed: () => removeFromCart(eachCoffee),
                         );
                       })),
+              //
+              Container(
+                padding: EdgeInsets.all(25),
+                width: double.infinity,
+                child: Center(
+                    child: Text(
+                  "Pay Now",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                )),
+                decoration: BoxDecoration(
+                    color: Colors.brown,
+                    borderRadius: BorderRadius.circular(12)),
+              )
             ],
           ),
         ),
